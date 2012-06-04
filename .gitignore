@@ -1,0 +1,9 @@
+*.pyc
+.installed.cfg
+eggs
+develop-eggs
+bin
+lib
+include
+var
+parts
