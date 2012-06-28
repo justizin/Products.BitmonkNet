@@ -3,14 +3,14 @@ bitmonk.net Plone 4.1 buildout
 Usage
 -----
 
- $ virtualenv plone_4_1
- $ cd plone_4_1
- $ source bin/activate
- $ export TIMESTAMP=`+%d.%m.%Y-%H.%M`
- $ git clone http://github.com/bitmonk/plone_4_1_buildout buildout/${TIMESTAMP}
- $ python boostrap.py
- $ bin/buildout -vN
- $ bin/zeo start
- $ bin/instance-manage start
+    virtualenv plone_4_1
+    cd plone_4_1
+    source bin/activate
+    export TIMESTAMP=`+%d.%m.%Y-%H.%M`
+    git clone http://github.com/bitmonk/plone_4_1_buildout buildout/  {TIMESTAMP}
+    python boostrap.py
+    bin/buildout -vN
+    bin/zeo start
+    bin/instance-manage start
 
 
